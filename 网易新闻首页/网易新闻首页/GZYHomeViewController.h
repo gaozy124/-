@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GZYHomeViewController.h
 //  网易新闻首页
 //
 //  Created by 高志宇 on 16/2/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GZYHomeViewController : UIViewController
 
 @end
-

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3C115ED51C670F990022F59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115ED41C670F990022F59B /* main.m */; };
 		3C115ED81C670F990022F59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115ED71C670F990022F59B /* AppDelegate.m */; };
-		3C115EDB1C670F990022F59B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115EDA1C670F990022F59B /* ViewController.m */; };
 		3C115EDE1C670F990022F59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C115EDC1C670F990022F59B /* Main.storyboard */; };
 		3C115EE01C670F990022F59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C115EDF1C670F990022F59B /* Assets.xcassets */; };
 		3C115EE31C670F990022F59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C115EE11C670F990022F59B /* LaunchScreen.storyboard */; };
 		3C115EEE1C670F990022F59B /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115EED1C670F990022F59B /* ______Tests.m */; };
 		3C115EF91C670F990022F59B /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115EF81C670F990022F59B /* ______UITests.m */; };
+		3C115F081C67100D0022F59B /* GZYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115F071C67100D0022F59B /* GZYHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		3C115ED41C670F990022F59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C115ED61C670F990022F59B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C115ED71C670F990022F59B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C115ED91C670F990022F59B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C115EDA1C670F990022F59B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3C115EDD1C670F990022F59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C115EDF1C670F990022F59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C115EE21C670F990022F59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		3C115EF41C670F990022F59B /* 网易新闻首页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易新闻首页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C115EF81C670F990022F59B /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		3C115EFA1C670F990022F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C115F061C67100D0022F59B /* GZYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYHomeViewController.h; sourceTree = "<group>"; };
+		3C115F071C67100D0022F59B /* GZYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				3C115ED61C670F990022F59B /* AppDelegate.h */,
 				3C115ED71C670F990022F59B /* AppDelegate.m */,
-				3C115ED91C670F990022F59B /* ViewController.h */,
-				3C115EDA1C670F990022F59B /* ViewController.m */,
+				3C115F061C67100D0022F59B /* GZYHomeViewController.h */,
+				3C115F071C67100D0022F59B /* GZYHomeViewController.m */,
 				3C115EDC1C670F990022F59B /* Main.storyboard */,
 				3C115EDF1C670F990022F59B /* Assets.xcassets */,
 				3C115EE11C670F990022F59B /* LaunchScreen.storyboard */,
@@ -202,6 +202,7 @@
 		3C115EC81C670F990022F59B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GZY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "高志宇";
 				TargetAttributes = {
@@ -270,8 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C115EDB1C670F990022F59B /* ViewController.m in Sources */,
 				3C115ED81C670F990022F59B /* AppDelegate.m in Sources */,
+				3C115F081C67100D0022F59B /* GZYHomeViewController.m in Sources */,
 				3C115ED51C670F990022F59B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
