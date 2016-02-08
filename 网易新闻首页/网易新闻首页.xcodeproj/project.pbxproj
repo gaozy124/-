@@ -15,6 +15,8 @@
 		3C115EEE1C670F990022F59B /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115EED1C670F990022F59B /* ______Tests.m */; };
 		3C115EF91C670F990022F59B /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115EF81C670F990022F59B /* ______UITests.m */; };
 		3C115F081C67100D0022F59B /* GZYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C115F071C67100D0022F59B /* GZYHomeViewController.m */; };
+		3C1C90551C683EDC00470D88 /* GZYContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C90541C683EDC00470D88 /* GZYContentViewController.m */; };
+		3C1C90581C68935000470D88 /* GZYHomeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C90571C68935000470D88 /* GZYHomeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3C115EFA1C670F990022F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C115F061C67100D0022F59B /* GZYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYHomeViewController.h; sourceTree = "<group>"; };
 		3C115F071C67100D0022F59B /* GZYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYHomeViewController.m; sourceTree = "<group>"; };
+		3C1C90531C683EDC00470D88 /* GZYContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYContentViewController.h; sourceTree = "<group>"; };
+		3C1C90541C683EDC00470D88 /* GZYContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYContentViewController.m; sourceTree = "<group>"; };
+		3C1C90561C68935000470D88 /* GZYHomeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYHomeLabel.h; sourceTree = "<group>"; };
+		3C1C90571C68935000470D88 /* GZYHomeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYHomeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				3C115ED71C670F990022F59B /* AppDelegate.m */,
 				3C115F061C67100D0022F59B /* GZYHomeViewController.h */,
 				3C115F071C67100D0022F59B /* GZYHomeViewController.m */,
+				3C1C90531C683EDC00470D88 /* GZYContentViewController.h */,
+				3C1C90541C683EDC00470D88 /* GZYContentViewController.m */,
+				3C1C90561C68935000470D88 /* GZYHomeLabel.h */,
+				3C1C90571C68935000470D88 /* GZYHomeLabel.m */,
 				3C115EDC1C670F990022F59B /* Main.storyboard */,
 				3C115EDF1C670F990022F59B /* Assets.xcassets */,
 				3C115EE11C670F990022F59B /* LaunchScreen.storyboard */,
@@ -272,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C115ED81C670F990022F59B /* AppDelegate.m in Sources */,
+				3C1C90551C683EDC00470D88 /* GZYContentViewController.m in Sources */,
 				3C115F081C67100D0022F59B /* GZYHomeViewController.m in Sources */,
+				3C1C90581C68935000470D88 /* GZYHomeLabel.m in Sources */,
 				3C115ED51C670F990022F59B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +511,7 @@
 				3C115EFF1C670F990022F59B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C115F001C670F990022F59B /* Build configuration list for PBXNativeTarget "网易新闻首页Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +520,7 @@
 				3C115F021C670F990022F59B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C115F031C670F990022F59B /* Build configuration list for PBXNativeTarget "网易新闻首页UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				3C115F051C670F990022F59B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
